@@ -1,0 +1,34 @@
+/*
+0          0          0        1 
+0          0          1        0
+0          1          0        0
+style      id         class    element
+*/
+.my_names{
+    display: flex;
+    justify-content: center;
+}
+
+
+#my_first_name{
+    display: block;
+    justify-self: center;
+}
+
+body{background-color: plum;}
+#my_first_name{
+color: brown;
+text-align: center;
+width: 350;
+height: 350;
+background-color: antiquewhite;
+background-image: url('../IMAGES/vino.jpg');
+background-repeat: no-repeat;
+background-position: center;
+border: 2px solid black;
+padding: 30px;
+margin: 30px;
+display: inline-block;
+}
+
+
